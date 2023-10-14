@@ -1,0 +1,42 @@
+color-picker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+  }
+  
+  .centered-content {
+    text-align: center;
+  }
+  
+  .color-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    align-items: center;
+  }
+  
+  
+.color-item {
+    width: 100px;
+    height: 100px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid #000;
+    align-items: center; 
+  }
+  
+  
+  .selected-color {
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  .color-square {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    margin-left: 10px;
+    box-shadow: 10px;
+    position: center;
+  }
